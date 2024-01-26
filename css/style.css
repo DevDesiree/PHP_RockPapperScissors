@@ -1,11 +1,19 @@
-h1{
-    color: white;
-}
 body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_game_and_message {
     background-image: url("../img/background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+    flex: 1;
+}
+
+h1{
+    color: white;
 }
 
 form {
@@ -16,7 +24,7 @@ form {
 
 .content_game{
     background-color: rgba(14, 14, 13, 0.712);
-    max-width: 50%;
+    max-width: 60%;
     margin: 50px auto;
 }
 
@@ -52,5 +60,11 @@ form {
 
 h3 {
     font-size: 28px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
     text-align: center;
 }
