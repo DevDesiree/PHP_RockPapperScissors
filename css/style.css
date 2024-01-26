@@ -1,0 +1,56 @@
+h1{
+    color: white;
+}
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.content_game{
+    background-color: rgba(14, 14, 13, 0.712);
+    max-width: 50%;
+    margin: 50px auto;
+}
+
+.content_message{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    flex-direction: column;
+}
+.content_message p {
+    text-align: center;
+}
+
+.reset_btn{
+    padding: 15px;
+    border-radius: 6px;
+    background-color: rgb(48, 48, 182);
+    color: white;
+}
+
+.options_game{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.options_game input {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+h3 {
+    font-size: 28px;
+    text-align: center;
+}
