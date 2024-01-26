@@ -26,6 +26,7 @@ form {
     background-color: rgba(14, 14, 13, 0.712);
     max-width: 60%;
     margin: 50px auto;
+    border-radius: 5px;
 }
 
 .content_message{
@@ -64,7 +65,7 @@ h3 {
 }
 
 footer{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.897);
     color: white;
     text-align: center;
 }
